@@ -1,0 +1,135 @@
+/* Estilo geral do site */
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+header {
+  /*background-color: #1b1b1b;*/
+  background: linear-gradient(90deg,rgb(243, 213, 129) 12%, rgb(226, 203, 139) 32%, rgb(214, 173, 49) 55%, rgb(247, 185, 1) 100%);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #444;
+}
+h1 {
+  color: #000000;
+  font-size: 36px;
+}
+
+h2 {
+  color: #c9a14a;
+  margin-top: 40px;
+}
+main {
+  max-width: 940px;
+  margin: 40px auto;
+  padding: 20px;
+}
+section {
+  background-color: #1a1a1a;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #0d0d0d;
+  font-size: 14px;
+  color: #888;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card h3 {
+  color: #c9a14a;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #ccc;
+}
+.botao {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #c9a14a;
+  color: #111;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.botao:hover {
+  background-color: #e0b85c;
+}
+
+.historia-reino h1 {
+  text-align: center;
+  color: #c9a14a;
+  margin-bottom: 30px;
+}
+
+.historia-reino h2 {
+  margin-top: 40px;
+  color: #c9a14a;
+}
+
+.historia-reino p {
+  line-height: 1.7;
+  margin-top: 15px;
+}
+
+.historia-reino .intro {
+  font-style: italic;
+  text-align: center;
+}
+
+.historia-reino .final {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.painel {
+  width: 80%;
+  max-width: 800px;
+  background-color: #1a1a1a;
+  color: #eee;
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.painel img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+
+
+
+
+
